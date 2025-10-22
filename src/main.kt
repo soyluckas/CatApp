@@ -1,8 +1,8 @@
 fun main() {
-    val binnie = Cat("Binnie", 10, 10)
-    val clyde = Cat("Clyde", 5, 5)
-    binnie.walk()
-    clyde.walk()
-    println(binnie)
-    println(clyde)
+    val cat = Cat("Whiskers", 3, 10)
+    println(cat)
+    cat.walk(2)
+    cat.eat(5)
+    cat.eat(10) // Should trigger error
+    println(cat)
 }
